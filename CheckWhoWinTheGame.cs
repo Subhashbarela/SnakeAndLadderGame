@@ -12,11 +12,13 @@ namespace SnakeAndLadderGame
         {
             int playerPosition = 0;
             int previousPosition = 0;
+            int Player1=0;
+            int Player2=1;
             Random random = new Random();
             int Player = random.Next(2);
             while (playerPosition < 100)
             {
-                if (Player == 0)
+                if (Player == Player1)
                 {
                     int diceRoll = random.Next(1, 7);
                     Console.WriteLine("You rolled a " + diceRoll);
@@ -64,7 +66,8 @@ namespace SnakeAndLadderGame
                     }
 
                 }
-                else
+           else //(Player==Player2)
+                
                 {
                     int diceRoll = random.Next(1, 7);
                     Console.WriteLine("You rolled a " + diceRoll);
