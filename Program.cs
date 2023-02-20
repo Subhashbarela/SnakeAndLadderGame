@@ -10,7 +10,8 @@ namespace SnakeAndLadderGame
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Let's Play The Game Of Snake And Ladder Game .... ");
+            EnsurePlayerGetWinInPos100 Obj= new EnsurePlayerGetWinInPos100();
+            Obj.ChekingWinThePlayer();
         }
     }
 }
