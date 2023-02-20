@@ -10,8 +10,8 @@ namespace SnakeAndLadderGame
     {
         static void Main(string[] args)
         {
-            EnsurePlayerGetWinInPos100 Obj= new EnsurePlayerGetWinInPos100();
-            Obj.ChekingWinThePlayer();
+            CheckTotalDieADisc Obj = new CheckTotalDieADisc();
+            Obj.CheckRollDie();
         }
     }
 }
