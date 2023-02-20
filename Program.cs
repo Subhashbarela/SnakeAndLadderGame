@@ -10,8 +10,8 @@ namespace SnakeAndLadderGame
     {
         static void Main(string[] args)
         {
-            CheckTotalDieADisc Obj = new CheckTotalDieADisc();
-            Obj.CheckRollDie();
+            CheckWhoWinTheGame Obj = new CheckWhoWinTheGame();
+            Obj.Winner();
         }
     }
 }
